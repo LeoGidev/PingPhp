@@ -19,5 +19,8 @@ function mostrar(){document.getElementById('spi').hidden =false;}
 function ocultar(){document.getElementById('spi').hidden =true;}
 
 
+function showUser(str) {
 
+    
+ }
 </head>
