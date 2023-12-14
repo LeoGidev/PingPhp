@@ -50,4 +50,5 @@ function showUser(str) {
 
 
  }
+ </script>
 </head>
