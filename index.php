@@ -21,7 +21,11 @@ function ocultar(){document.getElementById('spi').hidden =true;}
 
 function showUser(str) {
     setInterval(mostrar(),3000);
-    
+    if (str == "") {
+        setInterval(ocultar(),3000);
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    }
 
 
  }
