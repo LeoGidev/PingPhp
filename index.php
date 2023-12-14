@@ -59,6 +59,13 @@ function showUser(str) {
             <h3>Herramienta ping</h3><p>Por favor ingrese la ip para realizar la prueba.</p>
         </div>
     </div>
-    
+    <div class="row justify-content-center">
+    <div class="col-xs-12 ">
+      <form onKeypress="if(event.keyCode == 13) event.returnValue = false;">
+        <input type="text" name="q" placeholder="ip" >
+	      <input type="button" class="btn btn-primary" value="Probar" onclick="showUser(q.value)">
+      </form>
+    </div>
+  </div>   
 </div>
 </body>
