@@ -6,6 +6,10 @@ if (strpos($output, "recibidos = 0")|| strpos($output, "vuelva a intentarlo.")||
     echo "<ul class='list-group list-group-horizontal'><li class='list-group-item list-group-item-danger'>";
 	echo $q;
 	echo " Down</li></ul>";
+}else {
+    echo "<ul class='list-group list-group-horizontal'><li class='list-group-item list-group-item-success'>";
+	echo $q;
+	echo " OK</li></ul>";
 }
 
 ?>
