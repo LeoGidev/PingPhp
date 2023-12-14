@@ -14,3 +14,10 @@
   <script src="https://kit.fontawesome.com/4541e18ef9.js" crossorigin="anonymous"></script>
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+function mostrar(){document.getElementById('spi').hidden =false;}
+function ocultar(){document.getElementById('spi').hidden =true;}
+
+
+
+</head>
