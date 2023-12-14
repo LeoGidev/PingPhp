@@ -20,7 +20,9 @@ function ocultar(){document.getElementById('spi').hidden =true;}
 
 
 function showUser(str) {
-
+    setInterval(mostrar(),3000);
     
+
+
  }
 </head>
