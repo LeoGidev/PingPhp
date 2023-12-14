@@ -54,10 +54,11 @@ function showUser(str) {
 </head>
 <body>
 <div class="conatiner">
-<div class="jumbotron ">
-    <div class="container-fluid">
-      <h3>Herramienta ping</h3><p>Por favor ingrese la ip para realizar la prueba.</p>
+    <div class="jumbotron ">
+        <div class="container-fluid">
+            <h3>Herramienta ping</h3><p>Por favor ingrese la ip para realizar la prueba.</p>
+        </div>
     </div>
-  </div>
+    
 </div>
 </body>
