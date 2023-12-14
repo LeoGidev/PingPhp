@@ -66,6 +66,16 @@ function showUser(str) {
 	      <input type="button" class="btn btn-primary" value="Probar" onclick="showUser(q.value)">
       </form>
     </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-xs-12 ">
+      <div  id="txtHint">
+
+      </div>
+      <div id='spi' class='spinner-border text-primary' hidden='hidden' >
+
+      </div>
+    </div>
   </div>   
 </div>
 </body>
